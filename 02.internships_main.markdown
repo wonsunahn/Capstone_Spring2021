@@ -70,12 +70,10 @@ Please consider submitting the paper earlier to get feedback.
 
 For each presenter, there will be a folder in TopHat containing the slides for
 the presentation, the question created by the presenter, and a few peer review
-questions.  Please view the [Peer Review
-Form]({{site.baseurl}}/internships/review_form.txt) if you wish to see the peer
-review questions beforehand.  The TopHat questions should be submitted to
-TopHat by **Sunday midnight** the day after the presentation.  Please review
-[tips for writing a good review]({{site.baseurl}}/review_tips).  Be specific
-about what you liked and disliked.
+questions.  The TopHat questions should be submitted to TopHat by **Sunday
+midnight** of the week of the presentation.  Please review [tips for writing a
+good review]({{site.baseurl}}/review_tips).  Be specific about what you liked
+and disliked.
 
 The peer reviews will be anonymized and then provided to the presenter.  Note
 that the peer reviews *will not impact the presenter's grade*.  You can give
@@ -89,14 +87,16 @@ Slides" assignment.  It will be attached as a .xlsx Excel file.
 ## Progress report organization
 
 This is for CS 1950 students only.  Please send weekly (or bi-weekly depending
-on your meeting schedule) progress reports to your instructor and advisor by
-email, before each meeting.  The report allows your research advisor to get a
-summary update of your progress before starting a meeting.  The main consumer
-of the report is your research advisor, so you can use whatever format conveys
-the information best to your advisor.
+on your meeting schedule) progress reports to me and your advisor by email,
+before each meeting.  The report allows your research advisor to get a summary
+update of your progress before starting a meeting.  The main consumer of the
+report is your research advisor, so you can use whatever format conveys the
+information best to your advisor.  Your advisor will "approve" your report if
+your progress is satisfactory -- otherwise feedback will be given.
 
-The progress reports are meant to help you, not
-burden you.  
+My job as course instructor is to monitor the progress reports and facilitate
+communication with you and your advisor.  Remember, the progress reports are
+meant to help you, not burden you.  
 
 ## Attendance
 
