@@ -1,0 +1,11 @@
+_site/
+.sass-cache/
+
+.DS_Store
+
+.gitignore.swp
+*.un~
+*.swp
+*.md~
+*.markdown~
+*.yml~

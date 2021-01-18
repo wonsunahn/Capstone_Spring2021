@@ -1,0 +1,112 @@
+---
+layout: page
+title: CS1900/1950
+permalink: /CS1900_1950/
+---
+
+## Your responsibilities
+
+You have four responsibilities this term:
+
+1. Give a presentation on your work.  See [Presentation organization](#presentation-organization).
+   * Also come up with a question your classmates should be able to answer after your presentation. <br/><br/>
+
+2. Write a final paper.  See [Final paper organization](#final-paper-organization).
+
+3. Answer the presentation question and fill out peer reviews for each presentation (other than your own) on TopHat.  See [Peer review organization](#peer-review-organization)
+
+4. CS 1950 students: send weekly (or bi-weekly depending on your meeting schedule) progress reports to your instructor and advisor by email, before the meeting.  See See [Progress report organization](#progress-report-organization).  The progress reports are meant to help you, not burden you.  The report allows your research advisor to get a summary update of your progress before starting a meeting.  The main consumer of the report is your research advisor, so you can use whatever format conveys the information best to your advisor.
+
+If your presentation is not satisfactory, you will be asked to present once more with your instructor one-on-one outside of class hours.  This will be your final chance to give a satisfactory presentation.
+
+If you submit your final paper at least one week before the deadline, you will be provided feedback and given a chance to resubmit if your paper is not satisfactory.
+
+## Presentation organization
+
+1. Please complete the Doodle poll for presentation dates by **1/24 (Sunday) midnight**.  The poll link will be posted during our first class on 1/22.  The below link will be updated after the class is over.
+   * [Doodle Poll]()
+   
+2. These are the expected lengths of your presentation:
+   * 12:10 PM - 1:00 PM class (CS 1900-1010 or CS 1950-1010): 9 minute presentation with 2 minutes Q&A
+   * 1:15 PM - 2:05 PM class (CS 1900-1060 or CS 1950-1060): 9 minute presentation with 2 minutes Q&A <br/><br/>
+
+3. Please review [lecture on presentations]({{site.baseurl}}/lectures/lecture-on-presentations-internship.pdf) before giving your presentation.  
+
+4. Presenters must submit their presentation slides to the "Presentation
+   Slides" assignment on Canvas the day before, by **Thursday midnight**.  The
+slides will be uploaded to TopHat so that they can be reviewed by your
+classmates.  The preferred format is PDF or Powerpoint.  
+
+5. Presenters must also submit a presentation question to the "Presentation
+   Question" assignment on Canvas by Thursday midnight.  The purpose of this
+question is two fold: 1) To force the presenter to think about what they
+expect the audience to learn from the presentation and 2) To measure how
+successful the presenter was in conveying the concept.  Choose between a
+multiple choice question or a fill-in-the-blank question.
+
+   [Multiple choice example]
+
+   Q: Which color is not represented in the RGB color model?  
+   a) Red  
+   b) Green  
+   c) Blue  
+   d) Beige  
+
+   A: d) Beige
+
+   [Fill-in-the-blank example]
+
+   Q: An additive color model that adds together the colors of red, green, and blue to create a color is called the ______ color model.
+
+   A: RGB
+
+## Final paper organization
+
+Write a 8 - 12 page paper on your internship experience.  For details, see the
+[Final Paper Instructions]({{site.baseurl}}/final_paper).  PDF format is
+preferred.  The paper should be submitted to Canvas by midnight of **11/24**.
+Please consider submitting the paper earlier to get feedback.
+
+## Peer review organization
+
+For each presenter, there will be a folder in TopHat containing the slides for
+the presentation, the question created by the presenter, and a few peer review
+questions.  Please view the [Peer Review
+Form]({{site.baseurl}}/internships/review_form.txt) if you wish to see the peer
+review questions beforehand.  The TopHat questions should be submitted to
+TopHat by **Sunday midnight** the day after the presentation.  Please review
+[tips for writing a good review]({{site.baseurl}}/review_tips).  Be specific
+about what you liked and disliked.
+
+The peer reviews will be anonymized and then provided to the presenter.  Note
+that the peer reviews *will not impact the presenter's grade*.  You can give
+honest feedback and scores without feeling guilty about lowering your friend's
+grade.  The instructor will make the final determination on the quality of the
+presentation.
+
+The peer reviews will be made available as feedback on the "Presentation
+Slides" assignment.  It will be attached as a .xlsx Excel file.
+
+## Progress report organization
+
+This is for CS 1950 students only.  Please send weekly (or bi-weekly depending
+on your meeting schedule) progress reports to your instructor and advisor by
+email, before each meeting.  The report allows your research advisor to get a
+summary update of your progress before starting a meeting.  The main consumer
+of the report is your research advisor, so you can use whatever format conveys
+the information best to your advisor.
+
+The progress reports are meant to help you, not
+burden you.  
+
+## Attendance
+
+This is a synchronous web-based class.  If you cannot participate synchronously
+for some reason, please let me know asap.
+
+## Class Resources
+
+* [Week 2 Lecture on Presentations]({{site.baseurl}}/lectures/lecture-on-presentations-internship.pdf)
+* [Peer Review Form]({{site.baseurl}}/internships/review_form.txt)
+* [Peer Review Tips]({{site.baseurl}}/review_tips)
+* [Final Paper Instructions]({{site.baseurl}}/final_paper)
