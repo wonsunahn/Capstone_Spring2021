@@ -186,23 +186,76 @@ The steps are the following:
 
 
 
-### Vinicius
+### Online Profiling on Heterogeneous Memories
+
+ Heterogeneous memory systems have been recently adopted by hardware vendors to balance high capacity and performance. Using recent OS support, as in Linux kernel 5.1+, the different types of memory (e.g., high-density/slow vs low-density/fast) can be seamlessly accessible by the CPU. A key challenge is to automatically allocate the application data to the most suitable type of memory. Our research project will experimentally investigate and evaluate ideas to solve that problem, leveraging OS-level techniques, including profiling and tracing, and learning-based models that can help us characterize the application behavior from hardware performance monitoring counters (PMCs).
+ 
+In this project, students will learn how to use perf (a Linux interface to monitor the performance of applications through reading PMCs), deploy and run benchmarks to collect data, organize and clean the data, and experiment with emerging memory systems. Specifically, they will explore the “perf_event_open” API provided by the Linux kernel on Intel.
+ 
+Students are expected to check code, data, results into GitHub weekly as well as to meet weekly to discuss progress. 
+ 
+We envision the following (tentative) tasks for the project, with deadlines every 2 weeks, approximately:
+ 
+- Read and understand the technical report describing the numap library using the perf_event_open system call [A Portable Library For Low-Level Memory Profiling](https://hal.inria.fr/hal-01408979/document) 
+- Compile and run source code examples (written in the C language) using the numap library (also written in C) or libhugepagetune library (both use perf event open).
+  * https://github.com/numap-library/numap
+  * https://github.com/htfy96/libhugepagetune
+ 
+- Use the libraries (and possibly modify it or modify the code calling it) to start/stop collecting memory memory addresses when running an application.  The collected addresses will be written periodically to an output file
+  * Each sample should include: timestamp, type of memory operation (load/store), level of access (L1,L2..DRAM), address
+ 
+- Analyze and validate your results/outputs (online mode) compared with the perf standalone tool (offline mode)
+- Iterate, running more experiments as needed (eg, to validate a hypothesis that was created through the analysis)
+- Document code and write a final report describing your findings, challenges, and lessons learned. 
+
 
 * Areas of Interest: Operating Systems, Computer Architecture
-* Helpful Skills: Knowledge of Linux, C Programming, Python, Machine Learning
-* Group Size: 3 students
-* POC: Vinicius Petrucci (vpetrucci@pitt.edu)
+* Necessary/Required Skills: Knowledge of Linux, C Programming, 
+* Desired Skills: Python
+* Group Size: 1-2 students
+* POC: Diego Braga (dmoura@pitt.edu), Daniel Mossé (mosse@pitt.edu), Vinicius Petrucci (vpetrucci@pitt.edu) 
 
-### Mossé
+### Detecting Program Phases using Machine Learning
 
-1+ projects usually in computer systems, energy efficiency
 
-* Areas of Interest: Operating Systems, Computer Architecture
-* Helpful Skills: Knowledge of Linux, System Programming (C/C++), Python, Machine Learning
-* Group Size: 3 students
-* POC: Vinicius Petrucci (vpetrucci@pitt.edu)
+Applications usually are not totally CPU intensive or just memory intensive.  They go from one phase to another, multiple times. This project (longer descriptionhere) aims to characterize application phases and use machine learning to appropriately classify phases in an application. The goal is to schedule phases to the cores they are best suited for to achieve a balance between energy-efficiency and performance, for example, CPU intensive phases in powerful and energy-hungry cores while and memory intensive phases in smaller, power-efficient cores. Datasets and tools to collect more datasets will be provided.
+ 
+We envision the following (tentative) tasks for the project, with deadlines every 2 weeks, approximately:
+- Read and understand materials (papers, webpages) about leveraging hardware performance counters (PMCS) in heterogeneous scheduling to gain a general understanding of the field and previous work. 
+- Compile and run our preliminary code (in Python) that uses some ML to detect phases.
+- Analyze and validate your results/outputs (i.e., are phase predictions correct?)
+- Iterate, running more experiments as needed (e.g., to validate a hypothesis that was created through the analysis)
+- Document code and write a final report describing your findings, challenges, and lessons learned. 
+ 
+ 
+* Areas of Interest: Machine Learning, Energy Savings
+* Necessary/Required Skills: Knowledge of Linux, Python Programming
+* Desired Skills: Machine Learning, preferably the ML course
+* Group Size: 1-2 students
+* Contacts: Daniel Mosse (mosse@cs.pitt.edu) and Vasco Xu (vax1@pitt.edu)
 
-### Stephen Lee
+### Protect your voice in IoT voice devices
+
+
+In this project we will explore software that keeps your voice private while asking voice assistants (like Alexa) for help with tasks.  We have created an environment that accepts Voice snippets and it tries to do speech recognition, translating to text (we call it the "utility").  Our software is successful if it can transform the voice snippets into another voice snippets (call it "defense") in which speech recognition is successful but an attacker cannot recognize whose voice it is (which would be an "attack").  The basic software environment will be set up in departmental servers to expedite results.  In this project we will carry out the following tasks (meet weekly and check code, data, results into github weekly):
+1.	Read the paper describing the issues for Voice privacy
+2.	Read and understand the software environment (what are the inputs, what are day of outputs, how inputs are read, what configurations exist, what are the different options for utility, defenses, and attacks)
+3.	Reproduce early results
+4.	Modify software to automatically collect and display more metrics (false positives, false negatives, etc.)
+5.	Collect 5 more Datasets, run software, produce results similar to existing results but with new datasets (for all metrics)
+6.	Collect and install more attacks (one more attack per student)
+7.	Run software, produce results similar to existing results but with new attacks (for all datasets and all metrics)
+8.	Analyze outputs
+9.	Run sensitivity analysis of the various parameters
+10.	Write report
+
+* Areas of Interest: Internet of Things, security, privacy
+* Necessary/Required Skills: Python programming, curiosity
+* Group Size: 1-2 students
+* Contacts: Henrique Potter (potter.cs@pitt.edu), Daniel Mosse (mosse@cs.pitt.edu), and Stephen Lee (stephen.lee@pitt.edu)
+
+
+### Solar-powered IoT cameras for video analytics platform
 
 Advances in deep vision techniques and the ubiquity of smart cameras will drive the next generation of video analytics. However, video analytics applications consume vast amounts of energy as both deep learning techniques and cameras are power-hungry. 
 In this project, we will explore techniques that will use reinforcement learning to turn the cameras on and off to reduce the energy footprint. 
@@ -223,6 +276,7 @@ Students will carry out the following tasks.
   10. Document and release the code and dataset
 
 * Number of students: 3
+* Required skills – python programming, and interest in machine learning
 * POC: Stephen Lee (stephen.lee@pitt.edu)
 
 
@@ -230,12 +284,39 @@ Students will carry out the following tasks.
 Team Size: 4 students
 POC: Bill Laboon, Web3 Foundation Technical Education Lead (and Lecturer currently on leave from the University of Pittsburgh) - bill@web3.foundation
 
-### Malihe Alikhani - three projects
+### Natural Language Processing for Social Good
+
+Natural language processing methods, such as discourse analysis, argument mining, and BERT models, can be used to derive many useful insights from text published online. These insights can be applied to a number of different areas, especially the social science fields. Our main goals are twofold: to develop better NLP methods, and to use existing NLP methods to measure important social and political phenomena. Currently, we are working on measuring political polarization on social media for topics such as the coronavirus and the Black Lives Matter movement, by classifying tweets published over the past several months. We are also working on examining the impact of social media gatekeepers (users who disseminate news media to other users). You will learn to work with NLP tools and engage in design novel NLP models for social good. We aim to submit a paper to the SIGDIAL 2021 conference in March. 
+
+* Number of students: 2
+* POC: Malihe Alikhani (malihe@pitt.edu)
+
+### A Conversational AI Framework to Fight Against Systemic Oppression
+
+The 8-minute video footage of the event leading to Floyd's death has sparked mass outrage and protests across the US and around the world, but it was just one of the killings of unarmed Black people by police. African American and other racial and ethnicity minority groups are disproportionately targeted by a variety of police violence and abuse. In Pittsburgh, African-American communities continue to experience disparate policing. Pittsburgh's black population ranges between 23% and 27%, but accounts for 54% to 60% of the total arrests in recent years. Despite mounting evidence, it has been rare for police officers to be charged or convicted for excessive use of force. The lack of accountability and transparency about law enforcement misconduct has eroded public trust in policing in the local neighborhoods.
+
+Existing systems to hold police officers to account for their misconduct and abuse are largely ineffective. A recent report showed that in Pittsburgh, nearly 15% new complaint cases were not adequately pursued. Meanwhile, the police unions negotiate contracts that give officers protection from discipline and accountability, and there are numerous known and obscure provisions in these contracts that block attempts of inspectors to discipline offenders and implement reform -- for example, restraining anonymous complaints. Moreover, research found that many victims of abuse are reluctant to file a police misconduct incident due to low trust in the systems. Many more were deterred from reporting due to the lack of sufficient knowledge to file a misconduct complaint (e.g. not aware of the meaning of misconduct, legal steps such as a sworn statement or affidavit to be taken, or the unnoticeable constraints written in the union contracts.) These systems have also left the victims of abuse with little support to seek justice and redress. There is a significant gap to be filled in supporting the communities in need.
+
+**Aims. The goal of this project is to build tools that facilitate citizens' understanding of the process and rights of filing a police misconduct complaint, to recommend proper resources for seeking justice, and to increase transparency of the process.** We aim to build a novel intelligent system to assist ordinary citizens, especially people from minority communities, to understand their legal rights and the process of addressing police misconduct. A significant challenge is that we cannot presume that ordinary citizens have the knowledge about their rights or capacity to search relevant information as a legal expert might. To address this, we will develop a conversational agent based system (i.e., a chatbot) to make the complaint processes more accessible to the communities by integrating machine learning, natural language processing, and information extraction. In our system, a chatbot will answer users' questions by highlighting the text in the relevant documents with additional explanation in layman's terms. Our system will be freely available to the public with a hope to reduce the community's burden of additional investment in acquiring legal expertise.
+
+* Number of students: 2
+* Point of Contact: Yu-Ru Lin (yurulin@pitt.edu)
+
+### Building AI Systems for Sign Language Interpretation
+
+Sign languages are languages that convey meaning using the visual modality, through manual articulations in combination with non-manual elements such as facial expressions, body language. Sign languages, like other natural languages, evolved naturally through use and repetition by humans, without conscious planning, and are also governed by a set of linguistic rules. Moreover, sign languages developed independently of spoken language and do not share the grammar of their spoken counterparts. Different communities also use different sign languages that are often not mutually intelligible. 
+
+Sign Language Processing is an emerging field of research concerned with how to automatically process and analyze sign language data, at the intersection of Artificial Intelligence, Natural Language Processing, Computer Vision and Linguistics. Applications include sign language recognition (recognizing the signs in videos), sign language production (generating videos of sign language words/phrases), sign language translation (translating sign language to spoken language), sign language segmentation (dividing signs into units). 
+
+![Sign language production and translation]({{site.baseurl}}/projects/pdfs/signlanguage.png)
+
+**Learning Goals**
+
+In this project, you will learn how to perform data collection by web scraping for sign language data, and perform data preprocessing, including formatting and cleaning, on sign language videos and sign language textual annotations. You will also learn about the characteristics of sign languages and participate in the production of assistive technology for Deaf and signing communities.
 
 
-POC: Malihe Alikhani
-
-
+* Number of students: 2
+* POC: Malihe Alikhani (malihe@pitt.edu)
 
 ### Ravi and Jacob
 * Team Size: 4 students
@@ -243,13 +324,37 @@ POC: Malihe Alikhani
 # Other university projects
 
 
-### Decision support - G2A policing
+### 412Connect
 
-* Areas of Interest: Web-development, NLP
-* Helpful Skills for NLP: Python, R, regex (or you'll need to learn them)
-* Helpful Skills for web-dev: No restrictions, but useful to know JavaScript/Angular/Vue/etc.
-* Group Size: 4 students
-* POC: Sera Linardi (linardi@pitt.edu), Eliana Beigel
+**Project Background**
+
+412Connect is a program that strives to connect Black-owned businesses with the university community.  We believe that this is mutually beneficial: consumers have much to gain from what these businesses have to offer, and these new consumers can make a difference for the businesses during these difficult economic times. 
+
+We hope to do this by providing a web platform to:
+* form groups of members of the university community that are interested in supporting Black-owned businesses
+* provide recommendations on the  businesses to explore (will work with Black-business incubator Community Forge, Cocoapreneur and blackowned.pgh) 
+* incentivize members to interact with the businesses, either by supporting them on social media (follows, likes, or posts), purchasing goods and services, and providing reviews of their experience (such as Yelp and Google Reviews). 
+* make the experience really fun through points/ badges (possibly gift cards)
+
+Each member and each group could track their engagement with Black-owned businesses through a dashboard. 
+
+**Project Summary**
+
+In this project, students will be working with the community engagement team to develop a full stack website to accomplish 412Connect’s goal of bringing more exposure to black-owned businesses in the Pittsburgh area. 
+
+**Project Details**
+* Tech Stack:
+  * Front end:
+    * JavaScript
+    * HTML
+    * CSS
+  * Back end:
+    * Django (Python)
+    * Database
+
+* Desired qualifications: Experience with Social Media Integration with APIs, backend/database management
+* Group Size: 3-4 students
+* POC: Sera Linardi (linardi@pitt.edu)
 
 
 ### Aurora Sharard
