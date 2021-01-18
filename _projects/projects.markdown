@@ -237,17 +237,18 @@ We envision the following (tentative) tasks for the project, with deadlines ever
 ### Protect your voice in IoT voice devices
 
 
-In this project we will explore software that keeps your voice private while asking voice assistants (like Alexa) for help with tasks.  We have created an environment that accepts Voice snippets and it tries to do speech recognition, translating to text (we call it the "utility").  Our software is successful if it can transform the voice snippets into another voice snippets (call it "defense") in which speech recognition is successful but an attacker cannot recognize whose voice it is (which would be an "attack").  The basic software environment will be set up in departmental servers to expedite results.  In this project we will carry out the following tasks (meet weekly and check code, data, results into github weekly):
-1.	Read the paper describing the issues for Voice privacy
-2.	Read and understand the software environment (what are the inputs, what are day of outputs, how inputs are read, what configurations exist, what are the different options for utility, defenses, and attacks)
-3.	Reproduce early results
-4.	Modify software to automatically collect and display more metrics (false positives, false negatives, etc.)
-5.	Collect 5 more Datasets, run software, produce results similar to existing results but with new datasets (for all metrics)
-6.	Collect and install more attacks (one more attack per student)
+In this project, we will explore software that keeps your voice private while asking voice assistants (like Alexa) for help with tasks. We have created an environment that accepts voice snippets and performs speech to text with a pre-trained Neural Net (the software "utility") while simulating an attack that will attempt to perform voice recognition (match the voice ID of a person - the "attack").  In this environment, we explore how different audio data transformations affect both the utility and attack. Successful transformations (call it "defense") will allow the speech to text to be successful while inhibiting or hindering the attacker trying to match IDs. The basic software environment will be set up in departmental servers to expedite results.  This project will carry out the following tasks (meet weekly and check code, data, results in GitHub). We will be working with both:
+1.	Read our brief summary from the book ["Profiling humans from their voice"](https://docs.google.com/document/d/1zk19-10_Mh2-i6d9JHZH7hqswCks7_A0PR2IZys_z9o/edit) describing voice privacy issues and [watching the video](https://www.youtube.com/watch?v=4HjcQjwKBWM) for a fast introduction. 
+2.	Read and understand the software environment (what are the inputs, outputs, how inputs are read, what configurations exist, what are the different options for utility, defenses, and attacks). [Github with examples](https://github.com/Henrique-Potter/ppu-sound-experiment).
+3.	Reproduce early results with the current [Tensorflow](https://github.com/tensorflow/tensorflow) and [Pytorch](https://pytorch.org/) Neural Net pre-trained models ([Speech2Text](https://github.com/mozilla/DeepSpeech), [Speaker Recognition](https://github.com/mravanelli/SincNet)).
+4.	Modify the software to automatically collect and display more metrics (false positives, false negatives, etc.)
+5.	Search and implement 5 more Datasets, run the software, produce results similar to existing results but with new datasets (for all metrics).
+6.	Collect and install more attacks (one more attack per student). 
 7.	Run software, produce results similar to existing results but with new attacks (for all datasets and all metrics)
-8.	Analyze outputs
-9.	Run sensitivity analysis of the various parameters
-10.	Write report
+8.	Analyze outputs.
+9.	Run sensitivity analysis of the various parameters.
+10.	Write a final report.
+
 
 * Areas of Interest: Internet of Things, security, privacy
 * Necessary/Required Skills: Python programming, curiosity
