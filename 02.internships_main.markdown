@@ -27,8 +27,7 @@ If you submit your final paper at least one week before the deadline, you will b
    * [Doodle Poll]()
    
 2. These are the expected lengths of your presentation:
-   * 12:10 PM - 1:00 PM class (CS 1900-1010 or CS 1950-1010): 9 minute presentation with 2 minutes Q&A
-   * 1:15 PM - 2:05 PM class (CS 1900-1060 or CS 1950-1060): 9 minute presentation with 2 minutes Q&A <br/><br/>
+   * 30 minute presentation / 20 minutes Q&A
 
 3. Please review [lecture on presentations]({{site.baseurl}}/lectures/lecture-on-presentations-internship.pdf) before giving your presentation.  
 
