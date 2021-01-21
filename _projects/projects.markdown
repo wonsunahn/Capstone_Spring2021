@@ -5,7 +5,7 @@ permalink: /projects/
 
 # Capstone Project List
 
-<!--SO FAR: 57 (1 do mosse, 0 do alex)-->
+<!--SO FAR: 56 + 4Aurora +4NetApp-->
 
 
 Please file your top THREE choices as an issue with a title beginning with PROJECT (will go over in class) by Wednesday (26 August) morning at 11:59 AM (i.e., right before noon). Please list them in the order that you prefer them.  You will be informed as to your project BY the next Capstone class on Friday (28 August). YOU MUST FILE AN ISSUE IN ORDER TO BE PLACED ON A PROJECT AND THUS GET CREDIT FOR THE COURSE!  YOU WILL NOT BE PLACED ON A PROJECT IF YOU DO NOT FILE AN ISSUE!
@@ -212,7 +212,7 @@ We envision the following (tentative) tasks for the project, with deadlines ever
 * Areas of Interest: Operating Systems, Computer Architecture
 * Necessary/Required Skills: Knowledge of Linux, C Programming, 
 * Desired Skills: Python
-* Group Size: 1-2 students
+* Group Size: 2 students
 * POC: Diego Braga (dmoura@pitt.edu), Daniel Mossé (mosse@pitt.edu), Vinicius Petrucci (vpetrucci@pitt.edu) 
 
 ### Detecting Program Phases using Machine Learning
@@ -231,7 +231,7 @@ We envision the following (tentative) tasks for the project, with deadlines ever
 * Areas of Interest: Machine Learning, Energy Savings
 * Necessary/Required Skills: Knowledge of Linux, Python Programming
 * Desired Skills: Machine Learning, preferably the ML course
-* Group Size: 1-2 students
+* Group Size: 2 students
 * Contacts: Daniel Mosse (mosse@cs.pitt.edu) and Vasco Xu (vax1@pitt.edu)
 
 ### Protect your voice in IoT voice devices
@@ -252,7 +252,7 @@ In this project, we will explore software that keeps your voice private while as
 
 * Areas of Interest: Internet of Things, security, privacy
 * Necessary/Required Skills: Python programming, curiosity
-* Group Size: 1-2 students
+* Group Size: 2 students
 * Contacts: Henrique Potter (potter.cs@pitt.edu), Daniel Mosse (mosse@cs.pitt.edu), and Stephen Lee (stephen.lee@pitt.edu)
 
 
@@ -281,7 +281,16 @@ Students will carry out the following tasks.
 * POC: Stephen Lee (stephen.lee@pitt.edu)
 
 
-### Polkadot - 
+### Polkadot
+
+Web3 Foundation's vision to build the decentralized web - Web 3.0. One of the projects that W3F funds is Polkadot (polkadot.network), a heterogenous sharded multi-chain - essentially a group of blockchains which share security and interact through the medium of a central "relay chain". This relay chain is secured by a nominated proof-of-stake system, and for users, determining staking statistics can be difficult (although they are all available on-chain).  In the Fall 2020 semester, a group of students developed a node.js script which gives users much of this information.
+
+The goal of this project is to take the script from the previous students and turn it into a "chain staking data" site. This will involve designing the page, setting up a node.js server, converting the script to run on the server, adding optimizations and additional features, and working with the DevOps team to deploy and manage it.
+
+In this project, along with learning node.js and related web technologies, you'll also learn about the latest advances in blockchain technology and specifically Polkadot.
+
+As Web3 Foundation is a strong believer in the open source philosophy, all software developed for this project will be open-source (Apache 2.0 license).
+
 Team Size: 4 students
 POC: Bill Laboon, Web3 Foundation Technical Education Lead (and Lecturer currently on leave from the University of Pittsburgh) - bill@web3.foundation
 
@@ -320,7 +329,76 @@ In this project, you will learn how to perform data collection by web scraping f
 * POC: Malihe Alikhani (malihe@pitt.edu)
 
 ### Ravi and Jacob
+Nearly 1/2 of the American adult population has been diagnosed with a chronic condition, but only 1/4 of prescriptions are being taken as they are prescribed. As a result, nonadherence places a burden of $300 billion on the healthcare system. Deployment of technology equipped with a pharmacist’s medication expertise into patients’ homes could be the tool the healthcare system needs to massively improve adherence rates. As mobile technology has grown over the past decade, the world patients are living in has become increasingly connected. However, the gap between patients and healthcare providers has not been bridged as efficiently as their connections. Mending this gap could save payers and the healthcare system millions of dollars on an annual basis.
+
+Currently, key inefficiencies in the healthcare system lead to wasted opportunities that cost patients and payers money. A shift towards patient-focused care that is mediated by smart home technology will provide endless cost-saving possibilities. For decades, pharmacy has been geared towards reactive solutions to patient problems. Voice activated technology can accelerate healthcare’s shift towards a more cost-efficient, proactive approach. Payers have already started to notice the possibilities of a preventative approach, evidenced by the recent popularity of payer-provided health and wealthness programs. Incentivizing patients to take control of their own health is the key to a more successful and efficient health care system. Voice activated technology can be the backbone of medication adherence services and mediating a more transparent and hands-on approach to disease state management.
+
+(Credit, Jared Murray PharmD 2021)
+
+Milestones
+* Start
+  * Review of goals, expectations, and communication 
+* Milestones
+  * Review of platform documentation - Amazon Echo, most likely 
+  * Review of clinical requirements - Recording patient adherence to a once daily medication 
+  * Functional skill demonstration - Recognize “wake phrase”
+  * Iteration/Refinement
+  * Refined skill application - Perform specified recording of spoken message
+* Final
+  * Functional prototype of progressive effort 
+  * Documentation of technical and clinical considerations throughout process
+  * Summary video, screencast, and/or presentation of final outcome 
+
 * Team Size: 4 students
+* POC: Ravi Patel, School of Pharmacy (rmp40@pitt.edu) and Jacob Biehl (BIEHL@pitt.edu)
+
+
+
+### Two sided recommendation webapp
+
+<!--1. recommendations from 2 pov: user study:-> web interface to collect preferences and evaluate outcomes, and 
+Web app. Not creating algorithm but implement
+3 students.
+
+3-(4) students-->
+* Team Size: 3-4 students
+* POC: Alex Labrinidis (labrinid@pitt.edu) and student (@pitt.edu)
+
+### TA assignment application
+
+Scheduling TAs and UTAs to courses can be a complex problem, as it requires juggling student preferences, student availability, assignment  loads, recitation schedules, and departmental needs. This project aims at developing a tool that makes the lives of those involved easier: both students seeking appointments, and those responsible for the assignments. 
+
+Your job will be to develop a Web Application that will cater to the needs all involved.
+
+One part of the application will be the student profile. This will give students the opportunity to add all the data needed to assign them.
+This will involve:
+- Add course preferences
+- Add schedule conflicts
+- etc.
+
+The other side of the application is the administrative tools. The design is still not finalized (that will be your job:) but these are the types of actions that should be possible to do:
+ - Add prospect students
+ - Add departmental needs
+ - Assign students to recitations
+
+ The last item is where your project will have the bigest impact. This project does not require you to come up with a fancy algorithm to automate the complete process. Instead, you will develop a tool that can give visual cues to its users. For example: highlight conflicts, show total progress, highlight recitations without TA, highlight TAs overloaded.
+ As part of your project, you will be talking with Bill Garrison and Nick Farnan (the faculty curretly tasked with this process) to figure out different ways and tools that improve their experience assigning TAs to classes.
+
+* Skills you need to have/learn: HTML/JavaScript/CSS (or some framework)
+* Team Size: 4-5 students
+* POC: Bill Garrison (bill@cs.pitt.edu) and Nick Farnan (nlf4@pitt.edu)
+
+
+
+<!--### Departmental - Tech - Manage combinations and room access
+2-3-->
+
+<!--### Departmental - Alumni website
+2-3-->
+
+
+
+
 
 # Other university projects
 
@@ -358,15 +436,39 @@ In this project, students will be working with the community engagement team to 
 * POC: Sera Linardi (linardi@pitt.edu)
 
 
-### Aurora Sharard
+### Mobility assistance for pedestrians
 
-1. Mobility assistance 
+In this project, you will build an application that uses CAPRIO's API to generate dynamic topological maps that help pedestrians navigate.
+
+**Background**
+
+If you remember your first day at Pitt, getting lost was certainly common. Maybe you needed to go from Victoria Building to Sennott Square and had no idea how to do it.
+If you were at a large event that spawns multiple rooms, or even buildings, you probably have a similar experience. Google will definitely tell you how to do it, but it will give you a street route. Which you know, if you lived in Pittsburgh, that in Winter is not necessarily the best route.
+
+Trying to solve this problem, [CAPRIO](https://db.cs.pitt.edu/caprio/) was born. CAPRIO combines indoors and outdoors information to give users a path that avoids the cold Pittsburgh weather. **_Oh, what if you need to avoid congested areas?_** Your brain may be wondering given the status of the world at this point in time. Well... the team behind CAPRIO thought the same, so CAPRIO can use congestion information to modify its path generation.
+
+**Important**: The CAPRIO team will have some **limited** time to help you with issues connecting to CAPRIO. However, you will have to learn the software technologies to connect to them on your own.
+
+**If that's all done, what is this project all about?**
+
+Enter [Metro-style pedestrian maps](https://medium.com/@mateovtn/a-metro-style-pedestrian-map-for-uf-3c259d3adbf3) (topological maps). If you want to know how to move around Pitt, for example, these high-level topological maps are much more useful if you are a Human Being.
+The problem is: _these maps are static, but the world isn't_. 
+
+University events, classes, weather, and many other factors influence how people distribute themselves in buildings. Consequently, the best routes may change daily (perhaps even hourly). The available routes may even change if you have mobility issues! As such, having the ability to generate these maps given data about what events and paths are available to individual people is important and a great resource.
+
+Your mission, if you choose to accept it, is to build an application that based on some user input (e.g. rooms/buildings of interest, date and time, mobility restrictions) queries the best paths from CAPRIO and generates a graph that represents the routes available from those points of interest. Then, using those graphs, display them to the user in a _Metro-style pedestrian map_.
+
+* Skills you need to have/learn: MongoDB, HTML/JavaScript/CSS
+* Team Size: 4 students
+* POC: Aurora Sharrard, Director of Sustainability, University of Pittsburgh
+
+
+### Sustainability at Pitt
+
+The 
 
 * Team Size: 4 students
 * POC: Aurora Sharrard, Director of Sustainability, University of Pittsburgh
 
-2. App for recycling
 
-* Team Size: 4 students
-* POC: Aurora Sharrard, Director of Sustainability, University of Pittsburgh
 
