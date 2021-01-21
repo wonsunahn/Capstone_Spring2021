@@ -63,7 +63,7 @@ multiple choice question or a fill-in-the-blank question.
 
 Write a 8 - 12 page paper on your internship experience.  For details, see the
 [Final Paper Instructions]({{site.baseurl}}/final_paper).  PDF format is
-preferred.  The paper should be submitted to Canvas by midnight of **11/24**.
+preferred.  The paper should be submitted to Canvas by midnight of **April 23**.
 Please consider submitting the paper earlier to get feedback.
 
 ## Peer review organization
