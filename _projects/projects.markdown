@@ -328,7 +328,7 @@ In this project, you will learn how to perform data collection by web scraping f
 * Number of students: 2
 * POC: Malihe Alikhani (malihe@pitt.edu)
 
-### Ravi and Jacob
+### Voice activated technology to improve medication adherence
 Nearly 1/2 of the American adult population has been diagnosed with a chronic condition, but only 1/4 of prescriptions are being taken as they are prescribed. As a result, nonadherence places a burden of $300 billion on the healthcare system. Deployment of technology equipped with a pharmacist’s medication expertise into patients’ homes could be the tool the healthcare system needs to massively improve adherence rates. As mobile technology has grown over the past decade, the world patients are living in has become increasingly connected. However, the gap between patients and healthcare providers has not been bridged as efficiently as their connections. Mending this gap could save payers and the healthcare system millions of dollars on an annual basis.
 
 Currently, key inefficiencies in the healthcare system lead to wasted opportunities that cost patients and payers money. A shift towards patient-focused care that is mediated by smart home technology will provide endless cost-saving possibilities. For decades, pharmacy has been geared towards reactive solutions to patient problems. Voice activated technology can accelerate healthcare’s shift towards a more cost-efficient, proactive approach. Payers have already started to notice the possibilities of a preventative approach, evidenced by the recent popularity of payer-provided health and wealthness programs. Incentivizing patients to take control of their own health is the key to a more successful and efficient health care system. Voice activated technology can be the backbone of medication adherence services and mediating a more transparent and hands-on approach to disease state management.
@@ -465,10 +465,21 @@ Your mission, if you choose to accept it, is to build an application that based 
 
 ### Sustainability at Pitt
 
-The 
 
 * Team Size: 4 students
 * POC: Aurora Sharrard, Director of Sustainability, University of Pittsburgh
 
 
 
+# Bioinformatics projects
+
+### Single-Cell RNA-Sequencing
+
+* Team Size: 3 students
+* POC: TBD
+
+
+### MedWISER - user-controlled clinical data web application
+
+* Team Size: 3 students
+* POC: TBD
