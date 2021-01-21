@@ -22,6 +22,15 @@ Note: Some of you may be working on private projects. Please file an issue on th
 
 ### NetApp - Two projects
 
+ 
+**About NetApp**
+
+NetApp is the Data Authority in the Hybrid Cloud.
+Throughout the world, leading organizations count on NetApp for software, systems, and services to manage and store their data. We help enterprises and service providers envision, deploy, and evolve their IT environments. Customers also benefit from our open collaboration with other technology leaders to create the specific solutions they need.  
+Our team is passionate about customer success. Our company culture and work environment support that dedication. Together with our global network of partners, we are united in one goal: to help our customers achieve the outcomes that matter most to them. To learn more, visit www.netapp.com. 
+The project is driven by the Scale Out Storage team which provides the file system infrastructure within the kernel to achieve high performing, scalable containers that are a key component of the NetApp Data Fabric architecture.
+
+
 ### [Swagger UI Alternatives]({{site.baseurl}}/projects/pdfs/NetApp-Pitt Capstone Spring 2021.pdf)
 
 **Check PDF** 
@@ -71,9 +80,32 @@ languages and concepts, including:
 * Team Size: 4 students
 
 
-### [???]({{site.baseurl}}/projects/pdfs/NetApp-Pitt-Capstone-Abstract-Fall-2020.pdf)
+### [Develop a kernel extension for an Open Source File System]({{site.baseurl}}/projects/pdfs/NetApp-SOS-Pitt-Capstone-Abstract-Spring-2021.pdf)
 
 **Check PDF** 
+
+
+**Project Background**
+
+Embedded and distributed systems focused projects are not commonly provided at a bachelor’s level Capstone project.  Our goal is to provide an opportunity for aspiring embedded systems engineers to gain experience in this area utilizing an open source embedded file system as a base for developing a specific kernel extension.
+Developers at NetApp have been optimizing and enhancing our embedded proprietary file system (WAFL – write anywhere file layout) for over 20 years.  Because of the proprietary nature of the file system we will be using an open source equivalent for this project.   Working in the C language, students will gain real-life experience developing for embedded, distributed systems.
+
+**Project Summary**
+
+In this project, students will work with the FUSE open source file system installed on Ubuntu Linux platform. The project team will work through the detailed steps below to implement a kernel extension that reports the file system space usage.
+
+**Project Details**
+
+Over the course of this Capstone project, students will accomplish the following high-level goals: 
+*	Download and install FUSE on Linux.
+*	Work through a NetApp provided initial custom example to understand the basic architecture.
+*	Create a read/write file system as an underlying test bed and explore the properties of this system.
+*	Write the kernel extension (using the C programming language) to implement a user space reporting function.
+*	Execute automated tests during the writing of the kernel extension.  Enhance the automated tests as necessary.
+*	Enhance the file system to store user space consumed data in an in-memory database.
+*	Update the in-memory database based on incoming fileops.
+*	Implement a space enforcement feature which prevents write fileops that exceed a defined usage limit.
+
 
 * Team Size: 4 students
 
