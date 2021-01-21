@@ -507,9 +507,13 @@ Your mission, if you choose to accept it, is to build an application that based 
 
 ### Single-Cell RNA-Sequencing
 
-* Team Size: 3 students
-* POC: TBD
+Single-cell RNA sequencing (scRNA-seq) provides the expression profiles of individual cells and is known for defining cell states and phenotypes.  Students will be performing a Single-Cell RNA-Seq Analysis using a set of analysis pipelines known as Cell Ranger.  The team will be assigned to find and download a publicly available data set and upload that data to a high-performance computer cluster (HTC).  To perform the pipeline, students will be learning how to access and utilize high-performance computer clusters to process data in Unix.  Students will learn how to use and customize the Cell Ranger pipeline to accurately process the data.  Once the data has been processed, the results will be imported into R.  From there students will utilize the R Package, Seurat, to analyze the data using statistical methods.  Students will also be required to learn other R methods to visualize their results from the Seurat output.  Upon completion, students should be able to smoothly run the Cell Ranger pipeline and have an overall understanding of final statistical output from the R package, Seurat.
+Note: We recommend students with no Unix/Command-line experience to attend the “Introduction to Linux for NGS” Workshop provided by Pitt’s CRC.  It is a 3-hour workshop that will cover Unix basics and how to access HTC, the high-performance computer cluster.  Info on the workshop can be found here, and is listed as “Introduction to Linux for NGS”:
+https://crc.pitt.edu/training/spring-2021-next-generation-sequencing-workshops 
 
+* Team Size: 3 students
+* Recommended Skills: Unix/Command-line Experience, General Understanding of R/R Packages, Basic Understanding of Statistics, Foundations of Biology
+* POC: Alexander Chang (ALC217@pitt.edu)
 
 ### MedWISER - user-controlled clinical data web application
 
