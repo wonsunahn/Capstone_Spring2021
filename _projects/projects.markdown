@@ -515,3 +515,11 @@ Your mission, if you choose to accept it, is to build an application that based 
 
 * Team Size: 3 students
 * POC: TBD
+
+
+### Poholek Lab - Unbiased determination of Promoter Chromatin H3K4me3 elongation in tumor immunity
+
+The tumor microenvironment suppresses anti-tumor immunity and is a major barrier to immunotherapeutic strategies. One mechanism of anti-tumor immunity is the prevalence of normally cytolytic CD8 T cells exhibiting a state of functional “exhaustion” characterized by reduced effector cytokine expression, proliferative potential and metabolic dysfunction. Using a low input assay termed CUT&RUN we have profiled the chromatin landscape of progressively exhausted CD8 T cells from murine tumors. K4me3 is an epigenetic mark associated with active promoters and gene expression. Broad distribution of K4me3 has been associated with tumor suppressor genes and transcriptional elongation and gene expression changes (Dai Z et al, Nature Comm 2018; Chen K et al, Nat. Genetics 2015). This project would aim to determine in an unbiased manner if H3K4me3 deposition was differentially elongated in exhausted T cells, potentially contributing to gene expression changes associated with loss of effector function and anti-tumor immunity. Datasets are in hand and students would use the above references papers as a guide for how to parse chromatin data but peak width as well as compare to gene expression data. Should the data be of interest, they may be included in a manuscript in preparation on the larger question of epigenetic regulation of T cell exhaustion in the tumor. A major goal of this project is not only to determine the biological answer of H3K4me3 but also to graphically represent it in a simplified manner for presentation. 
+
+* Team size: 2-4 students
+* POCs: Rhodes Ford, PhD candidate PMI; Amanda Poholek, Assistant Professor, Department of Pediatrics. 
