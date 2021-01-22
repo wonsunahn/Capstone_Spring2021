@@ -24,7 +24,7 @@ If you submit your final paper at least one week before the deadline, you will b
 ## Presentation organization
 
 1. I'll post a Doodle poll link during our first class on 1/22 for you to choose a date for your presentation.  The below link will be updated at that time.  It's first-come-first-serve.
-   * [Doodle Poll]()
+   * [Doodle Poll Link (to be linked on 1/22)]()
    * CS 1900 students: Please choose dates between 2/5 ~ 4/2.
    * CS 1950 students: Please choose dates between 4/9 ~ 4/23.
    
