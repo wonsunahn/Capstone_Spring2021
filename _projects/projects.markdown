@@ -313,7 +313,7 @@ Students will carry out the following tasks.
 * POC: Stephen Lee (stephen.lee@pitt.edu)
 
 
-### Polkadot
+### Polkadot Blockchain Statistics Dashboard
 
 Web3 Foundation's vision to build the decentralized web - Web 3.0. One of the projects that W3F funds is Polkadot (polkadot.network), a heterogenous sharded multi-chain - essentially a group of blockchains which share security and interact through the medium of a central "relay chain". This relay chain is secured by a nominated proof-of-stake system, and for users, determining staking statistics can be difficult (although they are all available on-chain).  In the Fall 2020 semester, a group of students developed a node.js script which gives users much of this information.
 
