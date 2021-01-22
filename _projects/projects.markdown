@@ -511,14 +511,6 @@ Your mission, if you choose to accept it, is to build an application that based 
 * POC: Aurora Sharrard, Director of Sustainability, University of Pittsburgh
 
 
-### Sustainability at Pitt
-
-
-* Team Size: 4 students
-* POC: Aurora Sharrard, Director of Sustainability, University of Pittsburgh
-
-
-
 # Bioinformatics projects
 
 ### Single-Cell RNA-Sequencing
