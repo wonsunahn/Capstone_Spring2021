@@ -418,7 +418,7 @@ The other side of the application is the administrative tools. The design is sti
 
 * Skills you need to have/learn: HTML/JavaScript/CSS (or some framework)
 * Team Size: 4-5 students
-* POC: Bill Garrison (bill@cs.pitt.edu) and Nick Farnan (nlf4@pitt.edu)
+* POC: Alex Labrinidis (labrinid@pitt.edu), Bill Garrison (bill@cs.pitt.edu), and Nick Farnan (nlf4@pitt.edu)
 
 
 
