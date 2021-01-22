@@ -517,8 +517,27 @@ https://crc.pitt.edu/training/spring-2021-next-generation-sequencing-workshops
 
 ### MedWISER - user-controlled clinical data web application
 
-* Team Size: 3 students
-* POC: TBD
+
+**Project Background**
+
+A major problem for doctors and nurses is that current electronic health record (EHR) software is extremely complex and makes them click around many different menus and screens, so when diagnosing a patient they can’t see all the relevant information together.  This is dangerous, as they can forget things or not see relationships between data; which affects their diagnostic and treatment decisions; it is also tiring and frustrating so they get burnt out.
+
+FHIRtiles is a medical program written in Angular, that gets data from electronic health records and lets the user arrange ‘tiles’ in different ways, with different visualizations.  There is a new API system (that the government mandates) that gets data from the EHRs, which allows us to build nice applications on top of it, to make the doctor’s work easier.  Users can gather information together on the same screen, visualize it in different ways, share with colleagues and so on.  
+
+This could have big effects in speeding up medical work, diagnosis and treatment, as well as adjusting software fast when new diseases arise.
+
+**Project Summary**
+
+Extending the tiles program to include nice visualizations useful to doctors.  The current program has somewhat crude front-end, and does not include all the data needed.  Some specific visualizations like sparklines and timelines would be useful, as well as whatever the students design for original uses.
+
+
+**Project details**
+
+The work here would involve parsing json data from the API (and there are tools that make that easier), putting it into the tiles program, and figuring out nice ways of displaying it (I can give guidance and we are starting an international collaboration about this but you are also free to find creative ways on your own that meet the needs of doctors.  If nicely done this could actually be used in a clinic. It should be easy to use for people without programming background, like a consumer app.  I will explain more in the meeting.
+
+
+* Team Size: 2-5 students
+* POC: Yalini Senathirajah
 
 
 ### Poholek Lab - Unbiased determination of Promoter Chromatin H3K4me3 elongation in tumor immunity
