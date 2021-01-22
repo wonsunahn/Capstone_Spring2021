@@ -419,6 +419,11 @@ The other side of the application is the administrative tools. The design is sti
  The last item is where your project will have the bigest impact. This project does not require you to come up with a fancy algorithm to automate the complete process. Instead, you will develop a tool that can give visual cues to its users. For example: highlight conflicts, show total progress, highlight recitations without TA, highlight TAs overloaded.
  As part of your project, you will be talking with Bill Garrison and Nick Farnan (the faculty curretly tasked with this process) to figure out different ways and tools that improve their experience assigning TAs to classes.
 
+You will need to use a frameworks, sponsors are partial to Flask (Python) on the backend and React on the frontend. But open to other options that students would prefer/have experience with. 
+The team can be split into frontend/backend development, so if students have an interest in purely one over the other (e.g., want JavaScript only), that should be fine. The frontend/backend subteams will have to carefully communicate to ensure compatibility. This approach would also allow us to easily hook in other scripts to manage the information gathered via the website by having the backend provide a flexible API to use.
+
+
+
 * Skills you need to have/learn: HTML/JavaScript/CSS (or some framework)
 * Team Size: 4-5 students
 * POC: Alex Labrinidis (labrinid@pitt.edu), Bill Garrison (bill@cs.pitt.edu), and Nick Farnan (nlf4@pitt.edu)
