@@ -23,11 +23,13 @@ If you submit your final paper at least one week before the deadline, you will b
 
 ## Presentation organization
 
-1. Please complete the Doodle poll for presentation dates by **1/24 (Sunday) midnight**.  The poll link will be posted during our first class on 1/22.  The below link will be updated after the class is over.
+1. I'll post a Doodle poll link during our first class on 1/22 for you to choose a date for your presentation.  The below link will be updated at that time.  It's first-come-first-serve.
    * [Doodle Poll]()
+   * CS 1900 students: Please choose dates between 2/5 ~ 4/2.
+   * CS 1950 students: Please choose dates between 4/9 ~ 4/23.
    
 2. These are the expected lengths of your presentation:
-   * 30 minute presentation / 20 minutes Q&A
+   * **15 minute presentation / 10 minutes Q&A**
 
 3. Please review [lecture on presentations]({{site.baseurl}}/lectures/lecture-on-presentations-internship.pdf) before giving your presentation.  
 
