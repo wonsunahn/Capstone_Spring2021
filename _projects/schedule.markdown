@@ -22,7 +22,7 @@ As always, keep up with the [University Academic Calendar][university-calendar] 
 | March 12 | Midterm presentations and Retrospective 3 |
 | March 19     | Midterm update and presentations **MUST INCLUDE FUNCTIONAL DEMO** |
 | March 26    | Talk TBD and Meeting Time Retrospective 4 |
-| October 2    | Talk TBD |
-| November 9    | Talk TBD and Retrospective 5 |
-| November 16     | Talk TBD **ALL STUDENTS: FINAL PAPERS DUE** |
-| November 23    | Presentations |
+| April 2    | Talk TBD |
+| April 9    | Talk TBD and Retrospective 5 |
+| April 16     | Talk TBD **ALL STUDENTS: FINAL PAPERS DUE** |
+| April 23    | Presentations |
