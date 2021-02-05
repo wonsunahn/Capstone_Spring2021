@@ -10,45 +10,66 @@ Don't forget to send your instructor your slides by the previous day midnight.
 
 The presentations will be given in the order they are listed on the particular date.
 
-## WEEK 1 (Week of 18 JAN)
+## WEEK 1 (Week of 22 JAN)
 
 * Introduction on syllabus and course requirements
   
-## WEEK 2 (Week of 25 JAN)
+## WEEK 2 (Week of 29 JAN)
 
 * [Lecture on giving a good presentation]({{site.baseurl}}/lectures/lecture-on-presentations-internship.pdf)
 
-## WEEK 3 (Week of 1 FEB)
+## WEEK 3 (Week of 5 FEB)
   
+* Kevin Tsui
+* James Wood
 
-## WEEK 4 (Week of 8 FEB)
+## WEEK 4 (Week of 12 FEB)
 
+* [Lecture on giving a good presentation]({{site.baseurl}}/lectures/lecture-on-presentations-internship.pdf) cont'd
+* Review presentations of Kevin and James
 
-## WEEK 5 (Week of 15 FEB)
+## WEEK 5 (Week of 19 FEB)
 
+* Michael Ebelle
 
-## WEEK 6 (Week of 22 FEB)
+## WEEK 6 (Week of 26 FEB)
 
+* Quinn Vierick
 
-## WEEK 7 (Week of 1 MAR)
+## WEEK 7 (Week of 5 MAR)
 
+NO CLASS
 
-## WEEK 8 (Week of 8 MAR)
+## WEEK 8 (Week of 12 MAR)
 
+* Collin O'Connor
 
-## WEEK 9 (Week of 15 MAR)
+## WEEK 9 (Week of 19 MAR)
 
+* Natasha K
+* Jacob Oaks
 
-## WEEK 10 (Week of 22 MAR)
+## WEEK 10 (Week of 26 MAR)
 
+* Colin Pietropaolo
+* Mike Geng
 
-## WEEK 11 (Week of 29 MAR)
+## WEEK 11 (Week of 2 APR)
 
+* Colton Lipchak
+* Cameron Beeche
 
-## WEEK 12 (Week of 5 APR)
+## WEEK 12 (Week of 9 APR)
 
+* Liam White McShane
+* Lucas Leiby
 
-## WEEK 13 (Week of 12 APR)
+## WEEK 13 (Week of 16 APR)
 
+* Matt Deible
+* Jasmine Brotemarkle
 
-## WEEK 14 (Week of 19 APR)
+## WEEK 14 (Week of 23 APR)
+
+* Julian Galbraith-Paul
+* Vibhu Kundeti
