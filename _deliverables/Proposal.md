@@ -40,6 +40,17 @@ Here are some example questions I would like to see answered.  This does not mea
 
 You are *required* to have a prioritized list of user stories that you will be working on.  This list is subject to change but I want to see that you have at least put some thought into what will be required when developing the system.
 
+
+## MANDATORY SECTION
+
+In your project proposal, you must include a section that describes what are the goals of the project.
+And when you predict those goals will be completed.
+
+I suggest you describe these as user stories. But any format is acceptable.
+
+You will need to get approval from your sponsor for the goals.
+
+
 ## Other
 
 Please feel free to email me or come to office hours to discuss any problems you have.
