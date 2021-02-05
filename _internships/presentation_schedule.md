@@ -46,7 +46,7 @@ NO CLASS
 
 ## WEEK 9 (Week of 19 MAR)
 
-* Natasha K
+* Natasha Kamtekar
 * Jacob Oaks
 
 ## WEEK 10 (Week of 26 MAR)
