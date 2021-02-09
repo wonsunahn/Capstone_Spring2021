@@ -23,9 +23,8 @@ If you submit your final paper at least one week before the deadline, you will b
 
 ## Presentation organization
 
-1. I'll post a Doodle poll link during our first class on 1/22 for you to choose a date for your presentation.  The below link will be updated at that time.  It's first-come-first-serve.
+1. The Doodle poll is over.  Please see the final schedule below.
    * [Finalized Presentation Schedule]({{site.baseurl}}/internship_presentation_schedule)
-   * [Doodle Poll Link](https://doodle.com/poll/rm9xkf4k9uxbxqc7)
    * CS 1900 students: Please choose dates between 2/5 ~ 4/2.
    * CS 1950 students: Please choose dates between 4/9 ~ 4/23.
    
@@ -108,7 +107,7 @@ for some reason, please let me know asap.
 
 ## Class Resources
 
+* [Finalized Presentation Schedule]({{site.baseurl}}/internship_presentation_schedule)
 * [Week 2 Lecture on Presentations]({{site.baseurl}}/lectures/lecture-on-presentations-internship.pdf)
-* [Peer Review Form]({{site.baseurl}}/internships/review_form.txt)
 * [Peer Review Tips]({{site.baseurl}}/review_tips)
 * [Final Paper Instructions]({{site.baseurl}}/final_paper)
