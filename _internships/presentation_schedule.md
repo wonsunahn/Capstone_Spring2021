@@ -38,7 +38,7 @@ The presentations will be given in the order they are listed on the particular d
 
 ## WEEK 7 (Week of 5 MAR)
 
-NO CLASS
+* Anthony Gruber
 
 ## WEEK 8 (Week of 12 MAR)
 
