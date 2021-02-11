@@ -18,7 +18,7 @@ As always, keep up with the [University Academic Calendar][university-calendar] 
 | February 12  | Presentation 3 - Retrospective 1 |
 | February 19  | [Presentation 4]({{site.baseurl}}/lectures/lecture-on-presentations.pdf) |
 | February 26 | [Presentation 5]({{site.baseurl}}/lectures/Writing a document.pdf) - Retrospective 2 |
-| March 5  | Talk TBD |
+| March 5  | Talk: NetApp - How to do an interview |
 | March 12 | Midterm presentations and Retrospective 3 |
 | March 19     | Midterm update and presentations **MUST INCLUDE FUNCTIONAL DEMO** |
 | March 26    | Talk TBD and Meeting Time Retrospective 4 |
