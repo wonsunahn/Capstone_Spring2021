@@ -31,7 +31,7 @@ If you submit your final paper at least one week before the deadline, you will b
 2. These are the expected lengths of your presentation:
    * **15 minute presentation / 10 minutes Q&A**
 
-3. Please review [lecture on presentations]({{site.baseurl}}/lectures/lecture-on-presentations-internship.pdf) before giving your presentation.  
+3. Please review [lecture on presentations]({{site.baseurl}}/lectures/lecture-on-presentations-internship.pdf) and [lecture on assertion evidence format](({{site.baseurl}}/lectures/lecture-on-assertion-evidence-format.pdf) before giving your presentation.  
 
 4. Presenters must submit their presentation slides to the "Presentation
    Slides" assignment on Canvas the day before, by **Thursday midnight**.  The
@@ -109,5 +109,6 @@ for some reason, please let me know asap.
 
 * [Finalized Presentation Schedule]({{site.baseurl}}/internship_presentation_schedule)
 * [Week 2 Lecture on Presentations]({{site.baseurl}}/lectures/lecture-on-presentations-internship.pdf)
+* [Week 4: Lecture on assertion evidence format](({{site.baseurl}}/lectures/lecture-on-assertion-evidence-format.pdf)
 * [Peer Review Tips]({{site.baseurl}}/review_tips)
 * [Final Paper Instructions]({{site.baseurl}}/final_paper)
