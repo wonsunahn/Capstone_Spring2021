@@ -25,7 +25,7 @@ The presentations will be given in the order they are listed on the particular d
 
 ## WEEK 4 (Week of 12 FEB)
 
-* [Lecture on giving a good presentation]({{site.baseurl}}/lectures/lecture-on-presentations-internship.pdf) cont'd
+* [Lecture on assertion evidence format](({{site.baseurl}}/lectures/lecture-on-assertion-evidence-format.pdf)
 * Review presentations of Kevin and James
 
 ## WEEK 5 (Week of 19 FEB)
