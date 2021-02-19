@@ -38,10 +38,11 @@ The presentations will be given in the order they are listed on the particular d
 
 ## WEEK 7 (Week of 5 MAR)
 
-* Anthony Gruber
+* Guest Talk: NetApp - How to do an interview (Zoom info TBA)
 
 ## WEEK 8 (Week of 12 MAR)
 
+* Anthony Gruber
 * Collin O'Connor
 
 ## WEEK 9 (Week of 19 MAR)
